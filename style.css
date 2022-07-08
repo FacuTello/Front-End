@@ -1,3 +1,14 @@
 #Navegacion{
    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.Logos{
+   width: 60px;
+   height: 50px;
+   border-radius: 30%;
+}
+.Argentina-Programa{
+   font-size: 20px;
+   font-family: 'Edu NSW ACT Foundation', cursive;
 }
