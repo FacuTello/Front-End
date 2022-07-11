@@ -78,9 +78,9 @@ nav{
    background-color: #86A397;
 }
 .Texto-Experiencia{
-   font-family: 'Indie Flower', cursive;
+   font-family: 'Alfa Slab One', cursive;
    font-size: 50px;
-   text-decoration: underline;
+   
 }
 .Gestor{
    font-family: 'Indie Flower', cursive;
@@ -95,5 +95,29 @@ nav{
 }
 #Logo-Puesto{
    display: flex;
+}
+.Detalles{
+   font-family: 'Indie Flower', cursive;
+   font-weight: bold;
+   font-size: 25px;
+}
+#Centrar-Experiencia{
+   display: flex;
+  align-items: center;
+}
+.Detalles2{
+   font-family: 'Indie Flower', cursive;
+   font-weight: bold;
+   font-size: 25px;
+   margin-left: 33px;
+}
+#Educacion{
+   width: 100%;
+   height: 100vh;
+   background-color: #E26D5A;
+}
+#Logo-Educacion{
+   width: 400px;
+   border-radius: 20%;
    text-align: center;
 }
