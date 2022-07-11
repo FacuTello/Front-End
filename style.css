@@ -119,5 +119,8 @@ nav{
 #Logo-Educacion{
    width: 400px;
    border-radius: 20%;
-   text-align: center;
-}
+   display: inline;
+   }
+   #Centrar-Logo{
+      text-align: center;
+   }
