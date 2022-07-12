@@ -113,7 +113,7 @@ nav{
 }
 #Educacion{
    width: 100%;
-   height: 100vh;
+   height: 150vh;
    background-color: #E26D5A;
 }
 #Logo-Educacion{
@@ -123,4 +123,21 @@ nav{
    }
    #Centrar-Logo{
       text-align: center;
+   }
+   .Texto-Educacion{
+      font-family: 'Indie Flower', cursive;
+   }
+   #Logo-Educacion2{
+      width: 400px;
+      border-radius: 20%;
+      margin-top: 30px;
+   }
+   #Alineacion-Educacion{
+      display: flex;
+      align-items: center;
+      justify-content: space-around ;
+   }
+   #Logo-OpenBootcamp{
+      width: 250px;
+      border-radius: 20%;
    }
