@@ -1,9 +1,6 @@
 body{
    margin: 0px;
-
 }
-
-
 #Navegacion{
    display: flex;
    flex-direction: row;
@@ -85,13 +82,10 @@ nav{
 .Gestor{
    font-family: 'Indie Flower', cursive;
    margin-left: 20px;
-   
-
 }
 #LogoBW{
    width: 60px;
    height: 60px;
-   
 }
 #Logo-Puesto{
    display: flex;
@@ -140,4 +134,40 @@ nav{
    #Logo-OpenBootcamp{
       width: 250px;
       border-radius: 20%;
+      margin-right: 110px;
+   }
+   #Habilidades{
+      width: 100%;
+      height: 150vh;
+      background-color: #815E5B;
+   }
+progress{
+   margin-top: 90px;
+   width: 400px;
+   height: 100px;
+}
+.Logo-Html{
+   width: 250px;
+   height: 250px;
+}
+.Logo-CSS{
+   margin-left: 30px;
+   width: 200px;
+   height: 250px;   
+}
+.Logo-JS{  
+   margin-left: 30px;
+   width: 200px;
+   height: 250px; 
+   
+}
+
+#Contenedor-Habilidades{
+   display: grid;
+   grid-template-columns: 50px 50px;
+   grid-template-rows: 30px 30px 30px;
+   grid-column-gap: 250px;
+   grid-row-gap: 250px;
+   justify-items:last baseline;
+   
    }
